@@ -1,2 +1,4 @@
 [datalad "dataset"]
 	id = e522f713-406f-4e5f-a9eb-8a59e0c07a37
+[datalad "get"]
+	subdataset-source-candidate-000githubsubdatasetclone = git@github.com:DigitalCarleton/carcas-models.git
