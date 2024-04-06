@@ -17,6 +17,7 @@ for bone_filename in bone_filenames:
     bone_path = os.path.join("../carcas-models/models", bone_filename)
     bone_string = bone_filename[:-4] # remove .glb
     bone_name = bone_string.lower().replace(" ", "-")
+    bones.append(Bone(bone_name, bone_path, bone_string))
 
 # # TODO reformat filepaths to work on all OS's using the os package or pathlib package
 # bones = [Bone('alpaca-3rd-carpal-l', '../alpaca_3rd_carpal_L/Alpaca 3rd Carpal L.glb', 'Alpaca 3rd Carpal L'),
