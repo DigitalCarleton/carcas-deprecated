@@ -24,7 +24,7 @@ for bone_filename in bone_filenames:
 #          Bone('alpaca-cranium', '../alpaca_cranium/Alpaca Cranium.glb', 'Alpaca Cranium')]
 
 # get the template
-with open("template.html") as f:
+with open("utils/template.html") as f:
     template = f.read()
      
 # create a new file for each bone and fill in the appropriate strings
