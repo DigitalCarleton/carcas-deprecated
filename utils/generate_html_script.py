@@ -38,7 +38,7 @@ for bone in bones:
     template_filled = bone_alt_filled
 
     # save to a new file
-    bone_html_file = open(f"../html-files/{bone.bone_name}.html", "w")
+    bone_html_file = open(f"html-files/{bone.bone_name}.html", "w")
     bone_html_file.write(template_filled)
     bone_html_file.close()
 
