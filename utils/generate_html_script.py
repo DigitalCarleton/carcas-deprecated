@@ -19,11 +19,6 @@ for bone_filename in bone_filenames:
     bone_name = bone_string.lower().replace(" ", "-")
     bones.append(Bone(bone_name, bone_path, bone_string))
 
-# # TODO reformat filepaths to work on all OS's using the os package or pathlib package
-# bones = [Bone('alpaca-3rd-carpal-l', '../alpaca_3rd_carpal_L/Alpaca 3rd Carpal L.glb', 'Alpaca 3rd Carpal L'),
-#          Bone('alpaca-4th-carpal-l', '../alpaca_4th_carpal_L/Alpaca 4th Carpal L.glb', 'Alpaca 4th Carpal L'),
-#          Bone('alpaca-cranium', '../alpaca_cranium/Alpaca Cranium.glb', 'Alpaca Cranium')]
-
 # get the template
 with open("utils/template.html") as f:
     template = f.read()
