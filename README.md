@@ -1,4 +1,5 @@
 # CARCAS
+This repository is no longer active. Work has moved to https://github.com/DigitalCarleton/carcas.
 ## Carleton Archaeological Research Collection of Animal Specimens
 
 This repository hosts the models and some of the code for 
